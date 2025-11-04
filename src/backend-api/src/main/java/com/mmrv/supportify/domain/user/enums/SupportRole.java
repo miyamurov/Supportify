@@ -1,4 +1,4 @@
-package com.mmrv.supportify.domain.enums;
+package com.mmrv.supportify.domain.user.enums;
 
 public enum SupportRole {
     LEVEL_1,

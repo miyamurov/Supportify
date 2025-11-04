@@ -1,6 +1,6 @@
 package com.mmrv.supportify.domain.user;
 
-import com.mmrv.supportify.domain.enums.SupportRole;
+import com.mmrv.supportify.domain.user.enums.SupportRole;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.Data;
@@ -16,4 +16,5 @@ public class User {
     private String lastName;
     private String email;
     private SupportRole role;
+    private boolean isBanned;
 }

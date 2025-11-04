@@ -5,7 +5,7 @@ __pycache__/
 # Backend API (Java Spring Boot)
 HELP.md
 target/
-.mvn/wrapper/maven-wrapper.jar
+.mvn/
 !**/src/main/**/target/
 !**/src/test/**/target/
 .apt_generated

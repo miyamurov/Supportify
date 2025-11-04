@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: Supportify
+  datasource:
+    url: jdbc:postgresql://localhost:5432/supportify_db
+    username: postresql
+    password: admin
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+springdoc:
+  api-docs:
+    path: /api-docs
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+    tags-sorter: alpha
+    operations-sorter: alpha
+    doc-expansion: none

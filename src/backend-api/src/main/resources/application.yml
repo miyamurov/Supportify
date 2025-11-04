@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: Supportify
+  datasource:
+    url: jdbc:postgresql://localhost:5432/supportify_main
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        jdbc:
+          time_zone: Europe/Kyiv
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        IA GNIDA
